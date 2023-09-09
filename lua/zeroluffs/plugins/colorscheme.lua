@@ -1,6 +1,6 @@
 return {
 	{
-		    "bluz71/vim-nightfly-guicolors",
+		"folke/tokyonight.nvim",
 		opts = {
 			transparent = true,
 			styles = {
@@ -8,9 +8,9 @@ return {
 				floats = "transparent",
 			},
 		},
-        config = function()
-            vim.cmd("colorscheme nightfly")
-            vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
-        end,
+		config = function()
+			vim.cmd("colorscheme tokyonight")
+			--vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+		end,
 	},
 }
