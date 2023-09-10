@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({{import = "zeroluffs.plugins"}, {import = "zeroluffs.plugins.lsp"}}, {
     colorscheme = {
-        scheme = "tokyonight",
+        scheme = "catppuccino",
         options = {
             style = "night",
             transparent = true,
